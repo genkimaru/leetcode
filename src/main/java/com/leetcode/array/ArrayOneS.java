@@ -1,6 +1,6 @@
-package com.leetcode;
+package com.leetcode.array;
 
-public class Practice5_s {
+public class ArrayOneS {
 
 
     public static void main(String[] args) {

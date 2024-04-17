@@ -1,10 +1,8 @@
-package com.leetcode;
+package com.leetcode.matrix;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.function.IntPredicate;
 
-public class Practice8 {
+public class MatrixQuiz {
 
     public void setZeroes(int[][] matrix) {
 
@@ -56,7 +54,7 @@ public class Practice8 {
         //int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
         // int[][] matrix = {{0,1,2,0},{3,4,5,2},{1,3,1,5}};
         int[][] matrix = {{1, 0}};
-        new Practice8().setZeroes(matrix);
+        new MatrixQuiz().setZeroes(matrix);
         for (int[] row : matrix) {
             System.out.print("[ ");
             for (int element : row) {

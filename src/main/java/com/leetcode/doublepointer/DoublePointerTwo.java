@@ -1,8 +1,8 @@
-package com.leetcode;
+package com.leetcode.doublepointer;
 
-public class Practice4 {
+public class DoublePointerTwo {
 
-    /**
+    /** move zero
      *
      * [1, 3 ,0 ,4 ,0 ,2, 5] =>  [1,3,4,2,5,0,0]
      * require in-place sort

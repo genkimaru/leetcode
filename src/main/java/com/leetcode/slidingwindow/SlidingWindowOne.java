@@ -1,10 +1,11 @@
-package com.leetcode;
+package com.leetcode.slidingwindow;
 
 
 /**
- * non repeatable max substring
+ * name :  longest substring  without repeating characters.
+ *
  */
-public class Practice7 {
+public class SlidingWindowOne {
 
 
     public static int lengthOfLongestSubstring(String s) {

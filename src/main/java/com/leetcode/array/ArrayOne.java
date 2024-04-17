@@ -1,11 +1,11 @@
-package com.leetcode;
+package com.leetcode.array;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.function.BiConsumer;
 import java.util.List;
 
-public class Practice5 {
+public class ArrayOne {
     /**
      *
      * find the disappeared numbers in array

@@ -1,14 +1,14 @@
-package com.leetcode;
+package com.leetcode.dynamicplan;
 
 import java.io.IOException;
 import java.util.Scanner;
 
 
 /**
- *
- *  fibonacci sequence / go upstairs 1/2 steps
+ *   name:  Climbing Stairs
+ *    fibonacci sequence
  */
-public class Practice1 {
+public class DynPlanOne {
 
     public static int fibonacci(int n) {
         if (n == 1) {

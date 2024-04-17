@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.linkedlist;
 
 import com.leetcode.util.ListNode;
 import com.leetcode.util.Utils;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  *  merge two list
  */
-public class Practice10 {
+public class LinkedListTwo {
 
 /*    public ListNode mergeTwoLists(ListNode head1, ListNode head2) {
         ListNode newHead, currentNode;
@@ -77,7 +77,7 @@ public class Practice10 {
         int[] arr1 = {1, 2, 4}, arr2 = {1, 3, 4};
         ListNode head1 = Utils.buildList(arr1);
         ListNode head2 = Utils.buildList(arr2);
-        ListNode newHead = new Practice10().mergeTwoLists(head1, head2);
+        ListNode newHead = new LinkedListTwo().mergeTwoLists(head1, head2);
         while (newHead != null) {
             System.out.println(newHead.val);
             newHead = newHead.next;

@@ -1,12 +1,12 @@
-package com.leetcode;
+package com.leetcode.linkedlist;
 
 import com.leetcode.util.ListNode;
 import com.leetcode.util.Utils;
 
 /**
- *  intersect list
+ *  name:  two intersect list
  */
-public class Practice9 {
+public class LinkedListOne {
 
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
@@ -42,7 +42,7 @@ public class Practice9 {
         int[] listB = {5, 6, 1, 8, 4, 5};
 
         //  expect : int intersectVal = 8;
-        Practice9 practice9 = new Practice9();
+        LinkedListOne practice9 = new LinkedListOne();
         practice9.listAHead = Utils.buildList(listA);
         practice9.listBHead = Utils.buildList(listB );
         ListNode intersectionNode = practice9.getIntersectionNode(practice9.listAHead, practice9.listBHead);

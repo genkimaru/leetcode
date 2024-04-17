@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.recursion;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 /**
  * permutation or  arrangement problem: [1,2,3] => [1,2,3] [1,3,2] ,[2,1,3] ,[2,3,1],[3,1,2],[3,2,1]
  */
-public class Arrangement {
+public class RecursionOne {
 
     private int count;
     private ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
@@ -42,7 +42,7 @@ public class Arrangement {
         }
     }
 
-    protected int[] restOfArr(int ele, int[] arr) {
+    public int[] restOfArr(int ele, int[] arr) {
         int[] rest = new int[arr.length - 1];
         int i = 0;
         for (int e : arr) {
@@ -57,7 +57,7 @@ public class Arrangement {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8};
-        Arrangement arrangement = new Arrangement();
+        RecursionOne arrangement = new RecursionOne();
         arrangement.arrange(arr);
         arrangement.result.stream().forEach(new Consumer<ArrayList<Integer>>() {
             @Override

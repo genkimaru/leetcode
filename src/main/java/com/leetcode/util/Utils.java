@@ -1,7 +1,5 @@
 package com.leetcode.util;
 
-import com.leetcode.Practice9;
-
 public class Utils {
 
     /**
