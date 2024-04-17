@@ -2,7 +2,7 @@ package com.leetcode.matrix;
 
 import java.util.ArrayList;
 
-public class MatrixQuiz {
+public class MatrixOne {
 
     public void setZeroes(int[][] matrix) {
 
@@ -54,7 +54,7 @@ public class MatrixQuiz {
         //int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
         // int[][] matrix = {{0,1,2,0},{3,4,5,2},{1,3,1,5}};
         int[][] matrix = {{1, 0}};
-        new MatrixQuiz().setZeroes(matrix);
+        new MatrixOne().setZeroes(matrix);
         for (int[] row : matrix) {
             System.out.print("[ ");
             for (int element : row) {
