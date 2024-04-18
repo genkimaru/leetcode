@@ -1,4 +1,4 @@
-package com.leetcode.stack;
+package com.leetcode.heap;
 
 
 import java.util.Stack;
@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  *   Kth Largest Element in an Array
  */
-public class StackTwo {
+public class HeapOne {
 
     public static int partition(int[] nums, int low, int high) {
         int pivot = nums[high];
@@ -49,7 +49,7 @@ public class StackTwo {
 
         int[] nums = new int[]{9,8,7,6,5,4,3,2,1};
         int k = 2;
-        int kthLargest = new StackTwo().findKthLargest(nums, k);
+        int kthLargest = new HeapOne().findKthLargest(nums, k);
         System.out.println(kthLargest);
     }
 }
