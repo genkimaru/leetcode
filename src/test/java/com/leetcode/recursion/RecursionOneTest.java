@@ -1,6 +1,5 @@
-package com.recursion;
+package com.leetcode.recursion;
 
-import com.leetcode.recursion.RecursionOne;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -8,6 +8,7 @@ package com.leetcode.stack;
 public class StackOne {
 
 
+
     public static void main(String[] args) {
 
     }
