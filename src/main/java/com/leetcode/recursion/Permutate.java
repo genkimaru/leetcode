@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 /**
  * permutation or  arrangement problem: [1,2,3] => [1,2,3] [1,3,2] ,[2,1,3] ,[2,3,1],[3,1,2],[3,2,1]
  */
-public class RecursionOne {
+public class Permutate {
 
     private int count;
     private ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
@@ -57,7 +57,7 @@ public class RecursionOne {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8};
-        RecursionOne arrangement = new RecursionOne();
+        Permutate arrangement = new Permutate();
         arrangement.arrange(arr);
         arrangement.result.stream().forEach(new Consumer<ArrayList<Integer>>() {
             @Override

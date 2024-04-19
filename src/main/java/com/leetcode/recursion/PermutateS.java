@@ -3,12 +3,12 @@ package com.leetcode.recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecursionOneS {
+public class PermutateS {
 
 
     public static void main(String[] args) {
         String s = "abc";
-        RecursionOneS recursionOneS = new RecursionOneS();
+        PermutateS recursionOneS = new PermutateS();
         List<String> result = new ArrayList<>();
         recursionOneS.permutate(s, "", result);
         for (String ele : result) {
