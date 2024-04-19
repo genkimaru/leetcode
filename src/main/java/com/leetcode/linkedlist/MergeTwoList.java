@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  *  merge two list
  */
-public class LinkedListTwo {
+public class MergeTwoList {
 
     public ListNode mergeTwoLists(ListNode head1, ListNode head2) {
         ArrayList<Integer>  list = new ArrayList<Integer>();
@@ -26,8 +26,6 @@ public class LinkedListTwo {
                 head2 = head2.next;
             }
         }
-
-
         ListNode head = Utils.buildList(list.stream().mapToInt(Integer::intValue).toArray());
         return head;
     }
@@ -37,7 +35,7 @@ public class LinkedListTwo {
         int[] arr1 = {1, 2, 4}, arr2 = {1, 3, 4};
         ListNode head1 = Utils.buildList(arr1);
         ListNode head2 = Utils.buildList(arr2);
-        ListNode newHead = new LinkedListTwo().mergeTwoLists(head1, head2);
+        ListNode newHead = new MergeTwoList().mergeTwoLists(head1, head2);
         while (newHead != null) {
             System.out.println(newHead.val);
             newHead = newHead.next;

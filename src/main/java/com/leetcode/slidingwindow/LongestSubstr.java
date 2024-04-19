@@ -5,7 +5,7 @@ package com.leetcode.slidingwindow;
  * name :  longest substring  without repeating characters.
  *
  */
-public class SlidingWindowOne {
+public class LongestSubstr {
 
 
     public static int lengthOfLongestSubstring(String s) {
