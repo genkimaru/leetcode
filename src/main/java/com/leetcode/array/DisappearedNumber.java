@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.function.BiConsumer;
 import java.util.List;
 
-public class ArrayOne {
+public class DisappearedNumber {
     /**
      *
      * find the disappeared numbers in array
