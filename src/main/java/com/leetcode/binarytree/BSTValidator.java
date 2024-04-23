@@ -8,22 +8,19 @@ import com.leetcode.util.TreeNode;
 public class BSTValidator {
 
     public boolean isValidBST(TreeNode root) {
-        if (root.left != null) {
-            if (root.val < root.left.val) {
-                return false;
-            }
-           return  isValidBST(root.left);
-
-        }
-        if (root.right != null) {
-
-            if (root.val > root.right.val) {
-                return false;
-            }
-          return   isValidBST(root.right);
-        }
-        return true;
+        return validate(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
+
+    public boolean validate(TreeNode node, long min, long max) {
+        if (node == null) {
+            return true;
+        }
+        if (node.val <= min || node.val >= max) {
+            return false;
+        }
+        return  validate(node.left, min, node.val) && validate(node.right, node.val, max);
+    }
+
 
     public static void main(String[] args) {
         int[] arr = {3, 4, 2, 5, 1, 6};

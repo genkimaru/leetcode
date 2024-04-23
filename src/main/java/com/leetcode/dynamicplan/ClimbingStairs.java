@@ -8,7 +8,7 @@ import java.util.Scanner;
  *   name:  Climbing Stairs
  *    fibonacci sequence
  */
-public class DynPlanOne {
+public class ClimbingStairs {
 
     public static int fibonacci(int n) {
         if (n == 1) {
