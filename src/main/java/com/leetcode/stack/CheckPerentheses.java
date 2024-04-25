@@ -8,7 +8,7 @@ import java.util.Stack;
  *
  * using stack data structure
  */
-public class StackOne {
+public class CheckPerentheses {
 
 
     public boolean isValid(String s) {
@@ -31,7 +31,7 @@ public class StackOne {
     }
     public static void main(String[] args) {
         String s = "{(abc+bcd)*[cc+dd]}";
-        boolean isvalid = new StackOne().isValid(s);
+        boolean isvalid = new CheckPerentheses().isValid(s);
         System.out.println(isvalid);
     }
 }
